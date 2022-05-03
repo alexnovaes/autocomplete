@@ -1,5 +1,5 @@
 {
-    "name": "alex/autocomplete",
+    "name": "alexnovaes/autocomplete",
     "description": "Auto-complete CEP",
     "authors": [
         {
@@ -9,7 +9,7 @@
     ],
     "autoload" : {
         "psr-4" : {
-          "alex\\autocomplete\\" : ""
+          "alexnovaes\\autocomplete\\" : ""
         }
       },
 
