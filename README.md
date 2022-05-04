@@ -8,8 +8,11 @@
 [![](https://i.imgur.com/1xQXqvW.gif)](https://i.imgur.com/1xQXqvW.gif)
 ### Instalação via composer
 composer require alexnovaes/autocomplete
+
 php bin/magento setup:upgrade
+
 php bin/magento setup:static-content:deploy pt_BR -f
+
 php bin/magento cache
 
 ### Instalação (Apenas manual)
