@@ -6,6 +6,12 @@
 - Testado e criado usando Magento 2.3.6
 ## Video
 [![](https://i.imgur.com/1xQXqvW.gif)](https://i.imgur.com/1xQXqvW.gif)
+### Instalação via composer
+composer require alexnovaes/autocomplete
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy pt_BR -f
+php bin/magento cache
+
 ### Instalação (Apenas manual)
 - Faça o [download](https://github.com/LimaJonas/magento-autocomplete-cep-br/releases "download") do modulo.
 - Em [Magento_Root]/App/Code, crie as pastas Jonaslima/Autocomplete.
